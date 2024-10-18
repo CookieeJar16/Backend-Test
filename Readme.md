@@ -56,7 +56,7 @@ Once the API is running, you can access it at the following endpoints using tool
 2. **GET /items** or **GET /items/{id}**
    - **Description**: Retrieve all items or a specific item by ID.
    - **Example**:
-     ```bash
+     ```
     GET http://localhost:8000/items/1
      ```
 
