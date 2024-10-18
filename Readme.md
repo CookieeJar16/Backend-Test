@@ -24,7 +24,7 @@ The API supports the following operations:
 1. **Set Up the Database**:
    Initialize the SQLite database by running:
 
-   ```
+   ```bash
    python models.py
    ```
 
@@ -33,7 +33,7 @@ The API supports the following operations:
 2. **Run the API**:
    Start the server by running:
 
-   ```
+   ```bash
    python main.py
    ```
 
@@ -49,14 +49,14 @@ Once the API is running, you can access it at the following endpoints using tool
    - **Description**: Retrieve all categories.
    - **Response**: JSON list of categories.
    - **Example**:
-     ```
+     ```bash
     GET http://localhost:8000/categories
      ```
 
 2. **GET /items** or **GET /items/{id}**
    - **Description**: Retrieve all items or a specific item by ID.
    - **Example**:
-     ```
+     ```bash
     GET http://localhost:8000/items/1
      ```
 
@@ -96,7 +96,7 @@ Once the API is running, you can access it at the following endpoints using tool
 6. **DELETE /items/{id}**
    - **Description**: Delete an item by its ID.
    - **Example**:
-     ```
+     ```bash
     DELETE http://localhost:8000/items/1
      ```
 
@@ -109,7 +109,7 @@ Unit tests are written to test the API functionality using the `unittest` librar
 
 To run the unit tests, simply run the following command in the project root:
 
-```
+```bash
 python -m unittest tests/test_api.py
 ```
 
