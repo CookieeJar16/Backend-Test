@@ -49,16 +49,16 @@ Once the API is running, you can access it at the following endpoints using tool
    - **Description**: Retrieve all categories.
    - **Response**: JSON list of categories.
    - **Example**:
-     ```bash
+    ```bash
     GET http://localhost:8000/categories
-     ```
+    ```
 
 2. **GET /items** or **GET /items/{id}**
    - **Description**: Retrieve all items or a specific item by ID.
    - **Example**:
-     ```
+    ```
     GET http://localhost:8000/items/1
-     ```
+    ```
 
 3. **POST /categories**
    - **Description**: Add a new category.
@@ -96,9 +96,9 @@ Once the API is running, you can access it at the following endpoints using tool
 6. **DELETE /items/{id}**
    - **Description**: Delete an item by its ID.
    - **Example**:
-     ```bash
+    ```bash
     DELETE http://localhost:8000/items/1
-     ```
+    ```
 
 
 ## How to Run the Tests
