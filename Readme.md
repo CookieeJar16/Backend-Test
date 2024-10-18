@@ -131,6 +131,3 @@ Example test cases include:
 - **404 Not Found**: The requested resource (category or item) does not exist.
 - **409 Conflict**: Duplicate entry or integrity constraint violation (e.g., item or category already exists).
 - **500 Internal Server Error**: Server encountered an error while processing the request.
-
-
-## Debuging Error
